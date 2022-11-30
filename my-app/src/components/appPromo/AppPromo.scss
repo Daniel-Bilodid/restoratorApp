@@ -1,0 +1,228 @@
+.promo {
+    // position: relative;
+    min-height: 800px;
+    background-color: white;
+    background-position: left;
+    z-index: 1000;
+    
+}
+.promo__advantages {
+    
+    margin: 0 auto;
+    margin-top: 110px;
+    width: 126px;
+    height: 28px;
+    
+
+    background: #E3F7FC;
+    border-radius: 8px;
+    span{
+        padding: 7px 12px 5px 11px;
+        
+        
+
+        /* надзаголовок */
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 120%;
+        /* identical to box height, or 16px */
+
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+
+        color: #55AACC;
+    }
+}
+
+
+.promo__header {
+    text-align: center;
+    padding-top: 31px;
+   
+    
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+    /* identical to box height, or 54px */
+
+   
+
+    color: #333333;
+    span {
+        font-weight: bold;
+    }
+}
+.promo__list {
+    position: relative;
+    width: 1500px;
+    margin: 0 auto;
+    
+}
+.tab {
+    width: 500px;
+    height: 250px;
+    
+}
+
+.promo__list-wrapper {
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap; 
+   margin-top: 60px;
+//    padding-left: 285px;
+}
+// .promo__list-item{
+    
+// margin-right: 330px;
+// margin-bottom: 139px;
+
+// }
+
+
+.promo__list-item {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background: linear-gradient(137.56deg, #80E4FA 16.48%, #B166EC 95.91%);
+    box-shadow: 0px 15px 30px -8px #A0A7E8;
+    border-radius: 10px;
+}
+.promo__list-item img {
+    padding: 15px 18px 15px 18px;
+    width: 35px;
+    height: 39px;
+}
+.dif img {
+    width: 42px;
+    height: 42px;
+    padding: 14px 14px 14px 14px;
+}
+.promo__list-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    width: 330px;
+    height: 44px;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 80px;
+    color: #777777;
+    span {
+        font-weight: bold;
+        color: #333333
+    }
+
+}
+.promo__triangles {
+    position: absolute;
+    width: 80px;
+    height: 90.14px;
+    left: 154px;
+    top: 936px;
+    
+}
+
+
+.promo__thanks {
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+    width: 1160px;
+    height: 345px;
+    
+
+    background: linear-gradient(90deg, #81E5FB 1.55%, #D04CCD 86.68%);
+    border-radius: 20px;
+    
+    
+}
+
+.promo__thanks-header {
+    position: absolute;
+    width: 209px;
+    height: 28px;
+    top: 60px;
+    margin-left: 78px;
+    margin-bottom: 15px;
+    background: rgba(227, 247, 252, 0.5);
+    border-radius: 8px;
+    
+    
+}
+.promo__thanks-text {
+    padding: 7px 14px 5px 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.5px;
+    line-height: 120%;
+    /* identical to box height, or 16px */
+
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #55AACC;
+}
+.promo__thanks-main {
+    width: 439px;
+    height: 54px;
+ 
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 120%;
+    /* identical to box height, or 54px */
+
+    padding-left: 78px;
+    padding-top: 108px;
+    color: #FFFFFF;
+    span {
+        font-weight: bold;
+    }
+}
+.promo__thanks-descr {
+    width: 608px;
+    height: 81px;
+   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    padding-left: 78px;
+    padding-top: 28px;
+
+    color: rgba(255, 255, 255, 0.7);
+    span {
+        font-weight: bold;
+        color: white
+    }
+}
+
+.promo__thanks-triangle {
+    position: absolute;
+    width: 90.14px;
+    height: 80px;
+    left: 710px;
+    top: 38px;
+}
+.promo__thanks-bgc {
+    position: absolute;
+    width: 381.39px;
+    height: 471.64px;
+    left: 750px;
+    top: -95px;
+    }
