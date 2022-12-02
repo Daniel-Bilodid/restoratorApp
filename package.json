@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "sass": "^1.56.1"
+    "react-slick": "^0.29.0",
+    "sass": "^1.56.1",
+    "slick-carousel": "^1.8.1"
   }
 }
